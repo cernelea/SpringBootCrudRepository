@@ -22,7 +22,6 @@ public class CustomerRestController {
     @GetMapping("/customers")
     public List<Customer> customerList() {
         List<Customer> customerList = customerService.getCustomerList();
-        System.out.println("pohui");
 
         return customerList;
 
